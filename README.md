@@ -4,8 +4,8 @@
 
 Yandex JS API package
 
-[![npm version](https://badge.fury.io/js/ymaps3-drawer-control.svg)](https://badge.fury.io/js/ymaps3-drawer-control)
-[![npm](https://img.shields.io/npm/dm/ymaps3-drawer-control.svg)](https://www.npmjs.com/package/ymaps3-drawer-control)
+[![npm version](https://badge.fury.io/js/%40yandex%2Fymaps3-drawer-control.svg)](https://badge.fury.io/js/%40yandex%2Fymaps3-drawer-control)
+[![npm](https://img.shields.io/npm/dm/%40yandex%2Fymaps3-drawer-control.svg)](https://www.npmjs.com/package/%40yandex%2Fymaps3-drawer-control)
 
 ## How use
 
@@ -18,7 +18,7 @@ The package is located in the `dist` folder:
 Recommended use `YMapButtonExample` as usual npm package:
 
 ```sh
-npm i ymaps3-drawer-control
+npm i @yandex/ymaps3-drawer-control
 ```
 
 and dynamic import
@@ -28,7 +28,7 @@ main();
 async function main() {
   await ymaps3.ready;
 
-  const {YMapDrawerControl} = await ymaps3.import('ymaps3-drawer-control');
+  const {YMapDrawerControl} = await ymaps3.import('@yandex/ymaps3-drawer-control');
 
   map = new ymaps3.YMap(document.getElementById('app'), {location: LOCATION}, [
     /* any map child */
@@ -70,7 +70,7 @@ async function main() {
 
   const {useState, useCallback} = React;
   const {YMap} = reactify.module(ymaps3);
-  const {YMapDrawerControl} = reactify.module(await ymaps3.import('ymaps3-drawer-control'));
+  const {YMapDrawerControl} = reactify.module(await ymaps3.import('@yandex/ymaps3-drawer-control'));
 
   const App = () => {
     const [open, setOpen] = useState(false);
@@ -111,14 +111,14 @@ You can use CDN with module loading handler in JS API on your page.
 Just use `ymaps3.import`:
 
 ```js
-const pkg = await ymaps3.import('ymaps3-drawer-control');
+const pkg = await ymaps3.import('@yandex/ymaps3-drawer-control');
 ```
 
 By default `ymaps3.import` can load self modules.
 If you want also load your package, should register cdn:
 
 ```js
-ymaps3.import.registerCdn('https://cdn.jsdelivr.net/npm/{package}', 'ymaps3-drawer-control@latest');
+ymaps3.import.registerCdn('https://cdn.jsdelivr.net/npm/{package}', '@yandex/ymaps3-drawer-control@latest');
 ```
 
 ### YMapDrawerControl props description

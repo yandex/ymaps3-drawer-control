@@ -34,12 +34,12 @@ For development, you shold load from `dist`:
 
 ```js
 ymaps3.import.loaders.unshift(async (pkg) => {
-    if (!pkg.startsWith('ymaps3-drawer-control')) return;
+    if (!pkg.startsWith('@yandex/ymaps3-drawer-control')) return;
 
     // Load script from dev server
     await ymaps3.import.script(`./dist/index.js`);
 
-    return window['ymaps3-drawer-control'];
+    return window['@yandex/ymaps3-drawer-control'];
 });
 ```
 

@@ -9,7 +9,7 @@ async function main() {
 
     const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer} = vuefy.module(ymaps3);
 
-    const {YMapDrawerControl} = vuefy.module(await ymaps3.import('ymaps3-drawer-control'));
+    const {YMapDrawerControl} = vuefy.module(await ymaps3.import('@yandex/ymaps3-drawer-control'));
 
     const app = Vue.createApp({
         components: {
@@ -39,7 +39,7 @@ async function main() {
                 <YMapDefaultSchemeLayer />
 
                 <YMapDefaultFeaturesLayer />
-                
+
                 <YMapDrawerControl :onOpenChange="onOpenChange" position="left" :width="300" :open="open">
                     <template #content>
                         <div>

@@ -6,7 +6,7 @@ async function main() {
     await ymaps3.ready;
     const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer} = ymaps3;
 
-    const {YMapDrawerControl} = await ymaps3.import('ymaps3-drawer-control');
+    const {YMapDrawerControl} = await ymaps3.import('@yandex/ymaps3-drawer-control');
 
     map = new YMap(document.getElementById('app'), {location: LOCATION});
 

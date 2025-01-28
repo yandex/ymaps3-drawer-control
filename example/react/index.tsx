@@ -11,7 +11,7 @@ async function main() {
 
     const {useState, useCallback} = React;
 
-    const {YMapDrawerControl} = reactify.module(await ymaps3.import('ymaps3-drawer-control'));
+    const {YMapDrawerControl} = reactify.module(await ymaps3.import('@yandex/ymaps3-drawer-control'));
 
     const App = () => {
         const [open, setOpen] = useState(false);

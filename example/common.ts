@@ -1,7 +1,7 @@
 import type {YMapLocationRequest, LngLatBounds} from '@yandex/ymaps3-types';
 
 ymaps3.import.loaders.unshift(async (pkg) => {
-    if (!pkg.startsWith('ymaps3-drawer-control')) {
+    if (!pkg.startsWith('@yandex/ymaps3-drawer-control')) {
         return;
     }
 
@@ -11,7 +11,7 @@ ymaps3.import.loaders.unshift(async (pkg) => {
         await ymaps3.import.script(`https://unpkg.com/${pkg}/dist/index.js`);
     }
 
-    return window['ymaps3-drawer-control'];
+    return window['@yandex/ymaps3-drawer-control'];
 });
 
 export const LOCATION: YMapLocationRequest = {
