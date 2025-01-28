@@ -14,9 +14,7 @@ ymaps3.import.loaders.unshift(async (pkg) => {
     return window['ymaps3-drawer-control'];
 });
 
-const BOUNDS: LngLatBounds = [
-    [54.58311, 25.9985],
-    [56.30248, 24.47889]
-];
-
-export const LOCATION: YMapLocationRequest = {bounds: BOUNDS};
+export const LOCATION: YMapLocationRequest = {
+    center: [37.623082, 55.75254], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+};

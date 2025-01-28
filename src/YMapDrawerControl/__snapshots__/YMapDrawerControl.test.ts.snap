@@ -1,0 +1,1694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YMap smoke test should make map 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container left open",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {},
+                  "children": [
+                    "Hello world",
+                  ],
+                  "nodeName": "h1",
+                },
+              ],
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button left htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon left open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position bottom 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container bottom open",
+        "style": "transition: transform 500ms ease-in-out; width: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button bottom htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon bottom open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position bottom 2`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container bottom",
+        "style": "transition: transform 500ms ease-in-out; width: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button bottom htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon bottom",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position left 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container left open",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button left htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon left open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position left 2`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container left",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button left htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon left",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position right 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container right open",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button right htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon right open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position right 2`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container right",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button right htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon right",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position top 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container top open",
+        "style": "transition: transform 500ms ease-in-out; width: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button top htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon top open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should position top 2`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container top",
+        "style": "transition: transform 500ms ease-in-out; width: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "drawer-content",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button top htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon top",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should toggle open 1`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container left open",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {},
+                  "children": [
+                    "Hello world",
+                  ],
+                  "nodeName": "h1",
+                },
+              ],
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button left htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon left open",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;
+
+exports[`YMap smoke test should toggle open 2`] = `
+{
+  "attributes": {
+    "class": "ymaps3x0--map-container",
+  },
+  "children": [
+    {
+      "attributes": {
+        "class": "ymaps3x0--map",
+        "style": "width: 643px; height: 856px;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--main-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {
+                    "class": "ymaps3x0--layer ymaps3x0--tile-layer",
+                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                  },
+                  "children": [
+                    {
+                      "attributes": {
+                        "class": "ymaps3x0--tile-layer__container",
+                        "data-z": "9",
+                        "style": "transform: 
+            rotateX(0.00000rad)
+            translate3d(0px, 0px, 0px)
+            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
+        ;",
+                      },
+                      "nodeName": "ymaps",
+                    },
+                  ],
+                  "nodeName": "ymaps",
+                },
+              ],
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--top-engine-container",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "nodeName": "ymaps",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3--drawer-control-container left",
+        "style": "transition: transform 500ms ease-in-out; height: 100%;",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-content",
+          },
+          "children": [
+            {
+              "attributes": {},
+              "children": [
+                {
+                  "attributes": {},
+                  "children": [
+                    "Hello world",
+                  ],
+                  "nodeName": "h1",
+                },
+              ],
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3--drawer-control-button left htp-center vtp-center",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3--drawer-control-button-icon left",
+              },
+              "nodeName": "div",
+            },
+          ],
+          "nodeName": "div",
+        },
+      ],
+      "nodeName": "div",
+    },
+    {
+      "attributes": {
+        "class": "ymaps3x0--map-copyrights ymaps3x0--map-copyrights_bottom ymaps3x0--map-copyrights_right",
+      },
+      "children": [
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__container",
+          },
+          "children": [
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__text",
+                "title": "",
+              },
+              "nodeName": "ymaps",
+            },
+            {
+              "attributes": {
+                "class": "ymaps3x0--map-copyrights__user-agreements",
+                "href": "https://yandex.com/legal/maps_termsofuse/?lang=en_US",
+                "target": "_blank",
+              },
+              "children": [
+                "User Agreement",
+              ],
+              "nodeName": "a",
+            },
+          ],
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__logo ymaps3x0--icon-logo-en-black",
+            "style": "width: 46px; height: 20px;",
+          },
+          "nodeName": "ymaps",
+        },
+        {
+          "attributes": {
+            "class": "ymaps3x0--map-copyrights__scale",
+            "style": "bottom: 36px;",
+          },
+          "nodeName": "ymaps",
+        },
+      ],
+      "nodeName": "ymaps",
+    },
+  ],
+  "nodeName": "ymaps",
+}
+`;

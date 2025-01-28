@@ -1,0 +1,45 @@
+:root {
+    --ymaps3x0-drawer-control-background: #ffffff;
+    --ymaps3x0-drawer-control-shadow: 0px 4px 12px 0px #5f69831a;
+    --ymaps3x0-drawer-control-border-radius: 12px;
+}
+
+.ymaps3--drawer-control-container {
+    position: absolute;
+    background-color: var(--ymaps3x0-drawer-control-background);
+    box-shadow: var(--ymaps3x0-drawer-control-shadow);
+}
+
+.ymaps3--drawer-control-container.left {
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    border-top-right-radius: var(--ymaps3x0-drawer-control-border-radius);
+    border-bottom-right-radius: var(--ymaps3x0-drawer-control-border-radius);
+}
+
+.ymaps3--drawer-control-container.right {
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    border-top-left-radius: var(--ymaps3x0-drawer-control-border-radius);
+    border-bottom-left-radius: var(--ymaps3x0-drawer-control-border-radius);
+}
+.ymaps3--drawer-control-container.top {
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    border-bottom-right-radius: var(--ymaps3x0-drawer-control-border-radius);
+    border-bottom-left-radius: var(--ymaps3x0-drawer-control-border-radius);
+}
+.ymaps3--drawer-control-container.bottom {
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    border-top-right-radius: var(--ymaps3x0-drawer-control-border-radius);
+    border-top-left-radius: var(--ymaps3x0-drawer-control-border-radius);
+}
+
+.ymaps3--drawer-control-container.open {
+    transform: translate(0, 0);
+}

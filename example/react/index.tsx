@@ -7,11 +7,44 @@ async function main() {
     const [ymaps3React] = await Promise.all([ymaps3.import('@yandex/ymaps3-reactify'), ymaps3.ready]);
     const reactify = ymaps3React.reactify.bindTo(React, ReactDOM);
 
-    const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapControls} = reactify.module(ymaps3);
+    const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer} = reactify.module(ymaps3);
 
     const {useState, useCallback} = React;
 
-    const {YMapButtonExample} = reactify.module(await ymaps3.import('ymaps3-drawer-control'));
+    const {YMapDrawerControl} = reactify.module(await ymaps3.import('ymaps3-drawer-control'));
+
+    const App = () => {
+        const [open, setOpen] = useState(false);
+        const content = useCallback(
+            () => (
+                <div>
+                    <h1>Hello world!</h1>
+                    <button onClick={() => setOpen(false)}>Close</button>
+                </div>
+            ),
+            []
+        );
+
+        const onOpenChange = (value: boolean) => {
+            setOpen(!value);
+        };
+
+        return (
+            <YMap location={LOCATION}>
+                <YMapDefaultSchemeLayer />
+
+                <YMapDefaultFeaturesLayer />
+
+                <YMapDrawerControl
+                    position="left"
+                    width={300}
+                    content={content}
+                    open={open}
+                    onOpenChange={onOpenChange}
+                />
+            </YMap>
+        );
+    };
 
     ReactDOM.render(
         <React.StrictMode>
@@ -19,19 +52,4 @@ async function main() {
         </React.StrictMode>,
         document.getElementById('app')
     );
-
-    function App() {
-        const [location, setLocation] = useState(LOCATION);
-        const onClick = useCallback(() => alert('Click!'), []);
-
-        return (
-            <YMap location={location} ref={(x) => (map = x)}>
-                <YMapDefaultSchemeLayer />
-                <YMapDefaultFeaturesLayer />
-                <YMapControls position="right">
-                    <YMapButtonExample text={'My button'} onClick={onClick} />
-                </YMapControls>
-            </YMap>
-        );
-    }
 }
