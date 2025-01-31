@@ -13,7 +13,7 @@ async function main() {
     map.addChild(new YMapDefaultSchemeLayer({}));
     map.addChild(new YMapDefaultFeaturesLayer({}));
 
-    let open = false;
+    let open = true;
     const drawerControl = new YMapDrawerControl({
         position: 'left',
         width: 300,

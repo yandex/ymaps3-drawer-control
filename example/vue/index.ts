@@ -22,7 +22,7 @@ async function main() {
             const refMap = (ref) => {
                 window.map = ref?.entity;
             };
-            const open = Vue.ref(false);
+            const open = Vue.ref(true);
 
             const closeDrawer = () => {
                 open.value = false;

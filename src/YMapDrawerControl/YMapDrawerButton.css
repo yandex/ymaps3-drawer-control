@@ -12,7 +12,6 @@
     background-color: var(--ymaps3x0-drawer-control-background);
     padding: 0;
     cursor: pointer;
-    box-shadow: var(--ymaps3x0-drawer-control-shadow);
 }
 
 .ymaps3--drawer-control-button-icon {

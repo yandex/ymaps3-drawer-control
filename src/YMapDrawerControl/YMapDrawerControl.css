@@ -1,6 +1,6 @@
 :root {
     --ymaps3x0-drawer-control-background: #ffffff;
-    --ymaps3x0-drawer-control-shadow: 0px 4px 12px 0px #5f69831a;
+    --ymaps3x0-drawer-control-shadow: 0px 4px 12px 0px #5f69831a, 0px 4px 24px 0px #5f69830a;
     --ymaps3x0-drawer-control-border-radius: 12px;
 }
 
