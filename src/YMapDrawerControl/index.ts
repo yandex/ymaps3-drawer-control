@@ -1,1 +1,1 @@
-export {YMapDrawerContentProps, YMapDrawerControl, YMapDrawerControlProps} from './YMapDrawerControl';
+export * from './YMapDrawerControl';
