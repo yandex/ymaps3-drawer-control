@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1-beta.0",
+    "version": "0.0.1-beta.1",
     "name": "@yandex/ymaps3-drawer-control",
     "description": "Yandex Maps JS API 3.0 example ymaps3-drawer-control",
     "types": "./dist/types/index.d.ts",
