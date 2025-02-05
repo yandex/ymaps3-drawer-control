@@ -4,8 +4,8 @@
 
 Yandex JS API package
 
-[![npm version](https://badge.fury.io/js/%40yandex%2Fymaps3-drawer-control.svg)](https://badge.fury.io/js/%40yandex%2Fymaps3-drawer-control)
-[![npm](https://img.shields.io/npm/dm/%40yandex%2Fymaps3-drawer-control.svg)](https://www.npmjs.com/package/%40yandex%2Fymaps3-drawer-control)
+[![npm version](https://badge.fury.io/js/@yandex%2Fymaps3-drawer-control.svg)](https://badge.fury.io/js/@yandex%2Fymaps3-drawer-control)
+[![npm](https://img.shields.io/npm/dm/%40yandex%2Fymaps3-drawer-control)](https://www.npmjs.com/package/%40yandex%2Fymaps3-drawer-control)
 
 ## How use
 
@@ -18,7 +18,7 @@ The package is located in the `dist` folder:
 Recommended use `YMapButtonExample` as usual npm package:
 
 ```sh
-npm i @yandex/ymaps3-drawer-control
+npm install @yandex/ymaps3-drawer-control
 ```
 
 and dynamic import

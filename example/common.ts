@@ -1,4 +1,4 @@
-import type {YMapLocationRequest, LngLatBounds} from '@yandex/ymaps3-types';
+import type {YMapLocationRequest} from '@yandex/ymaps3-types';
 
 ymaps3.import.loaders.unshift(async (pkg) => {
     if (!pkg.startsWith('@yandex/ymaps3-drawer-control')) {
