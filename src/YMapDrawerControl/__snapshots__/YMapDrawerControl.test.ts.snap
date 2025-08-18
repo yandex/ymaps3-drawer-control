@@ -23,18 +23,14 @@ exports[`YMap smoke test should make map 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -182,18 +178,14 @@ exports[`YMap smoke test should position bottom 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -334,18 +326,14 @@ exports[`YMap smoke test should position bottom 2`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -486,18 +474,14 @@ exports[`YMap smoke test should position left 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -638,18 +622,14 @@ exports[`YMap smoke test should position left 2`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -790,18 +770,14 @@ exports[`YMap smoke test should position right 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -942,18 +918,14 @@ exports[`YMap smoke test should position right 2`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -1094,18 +1066,14 @@ exports[`YMap smoke test should position top 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -1246,18 +1214,14 @@ exports[`YMap smoke test should position top 2`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -1398,18 +1362,14 @@ exports[`YMap smoke test should toggle open 1`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },
@@ -1557,18 +1517,14 @@ exports[`YMap smoke test should toggle open 2`] = `
                 {
                   "attributes": {
                     "class": "ymaps3x0--layer ymaps3x0--tile-layer",
-                    "style": "perspective: 1597.3177456394797px; opacity: 1;",
+                    "style": "opacity: 1; perspective: 1597.3177456394797px;",
                   },
                   "children": [
                     {
                       "attributes": {
                         "class": "ymaps3x0--tile-layer__container",
                         "data-z": "9",
-                        "style": "transform: 
-            rotateX(0.00000rad)
-            translate3d(0px, 0px, 0px)
-            rotateZ(0.00000rad) translate3d(0px, 0px, 0px)
-        ;",
+                        "style": "transform: rotateX(0.00000rad) translate3d(0px, 0px, 0px) rotateZ(0.00000rad) translate3d(0px, 0px, 0px); z-index: 9;",
                       },
                       "nodeName": "ymaps",
                     },

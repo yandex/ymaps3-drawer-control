@@ -15,10 +15,17 @@ The package is located in the `dist` folder:
 - `dist/esm` es6 modules for direct connection in your project
 - `dist/index.js` Yandex JS Module
 
-Recommended use `YMapButtonExample` as usual npm package:
+Recommended use `ymaps3-drawer-control` as usual npm package:
 
 ```sh
 npm install @yandex/ymaps3-drawer-control
+```
+
+You also need to import css styles into your project:
+
+```css
+/* index.css */
+@import '@yandex/ymaps3-drawer-control/dist/esm/index.css';
 ```
 
 and dynamic import
@@ -28,7 +35,7 @@ main();
 async function main() {
   await ymaps3.ready;
 
-  const {YMapDrawerControl} = await ymaps3.import('@yandex/ymaps3-drawer-control');
+  const {YMapDrawerControl} = await import('@yandex/ymaps3-drawer-control');
 
   map = new ymaps3.YMap(document.getElementById('app'), {location: LOCATION}, [
     /* any map child */
@@ -70,7 +77,7 @@ async function main() {
 
   const {useState, useCallback} = React;
   const {YMap} = reactify.module(ymaps3);
-  const {YMapDrawerControl} = reactify.module(await ymaps3.import('@yandex/ymaps3-drawer-control'));
+  const {YMapDrawerControl} = reactify.module(await import('@yandex/ymaps3-drawer-control'));
 
   const App = () => {
     const [open, setOpen] = useState(false);
@@ -97,28 +104,21 @@ async function main() {
 }
 ```
 
-You also need to import css styles into your project:
-
-```css
-/* index.css */
-@import '@yandex/ymaps3-drawer-control/dist/esm/index.css';
-```
-
 ### Usage without npm
 
 You can use CDN with module loading handler in JS API on your page.
-
-Just use `ymaps3.import`:
-
-```js
-const pkg = await ymaps3.import('@yandex/ymaps3-drawer-control');
-```
 
 By default `ymaps3.import` can load self modules.
 If you want also load your package, should register cdn:
 
 ```js
 ymaps3.import.registerCdn('https://cdn.jsdelivr.net/npm/{package}', '@yandex/ymaps3-drawer-control@latest');
+```
+
+Just use `ymaps3.import`:
+
+```js
+const {YMapDrawerControl} = await ymaps3.import('@yandex/ymaps3-drawer-control');
 ```
 
 ### YMapDrawerControl props description
