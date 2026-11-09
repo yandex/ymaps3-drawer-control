@@ -1,36 +1,32 @@
 # Contributing
 
-> To get started in the `.env` file, you need to declare `APIKEY` https://yandex.ru/dev/maps/jsapi/doc/3.0/quickstart.html#get-api-key:
-
-To get started:
+Use Node.js 24 and install the dependencies locked for this package.
 
 ```sh
 nvm use
+npm ci
+```
+
+Set `APIKEY` in a local `.env` file and set `REFERRER` to a URL allowed for that
+key. The shared webpack configuration in `@yandex/ymaps3-cli` 0.0.25 reads
+`APIKEY` even for production builds. Jest uses both values to load the Maps JS API.
+
+```sh
 npm start
 ```
 
-or so if you didn't create the `.env` file
-
-```sh
-APIKEY=%APIKEY% npm start
-```
-
-To check with linter:
+To check a change locally, run the following commands.
 
 ```sh
 npm run lint
-```
-
-For the final build:
-
-```sh
 npm run build
+npm test
+npm pack --dry-run
 ```
-
 
 ## Development loader
 
-For development, you shold load from `dist`:
+Load the local build from `dist` during development.
 
 ```js
 ymaps3.import.loaders.unshift(async (pkg) => {
@@ -43,31 +39,26 @@ ymaps3.import.loaders.unshift(async (pkg) => {
 });
 ```
 
+## GitHub Actions
 
-## GitHub actions
+The `build` job runs on pull requests targeting `main` and pushes to `main`.
+It installs dependencies, lints, builds, runs integration tests and inspects the npm
+package. Configure the repository secrets `APIKEY` and `REFERRER` for these checks.
+GitHub withholds repository secrets from fork pull requests, so their build and
+integration checks require a maintainer to review the code and run it on a trusted branch.
 
-After you create a new tag, or just push changes to the server, ci will be launched
+## Publishing
 
-```sh
-npm version prerelease --preid=beta --no-git-tag-version
-git add --all
-git commit -m "New version"
-git tag 0.0.1-beta.2
-git push --tags origin HEAD:main
-```
+Configure a GitHub Actions trusted publisher for the existing npm package
+`@yandex/ymaps3-drawer-control`. Use owner `yandex`, repository
+`ymaps3-drawer-control`, workflow filename `release.yml` and an empty environment.
+Enable direct npm publishing.
 
-or run
+To release a patch from an up-to-date, clean `main`, run `npm run bump`.
+This commits the two version manifests and atomically pushes `main` and the new tag
+to `origin`. The push starts the release workflow.
 
-```sh
-npm run bump
-```
-
-CI described here
-
-- `.github/workflows/release.yml` - triggered when a new tag is created
-- `.github/workflows/tests.yml` - triggers on any push to the main branch
-
-For it to work, you need to declare two secrets in the GitHub Action:
-
-- `APIKEY` - To run autotests on the JS API https://yandex.ru/dev/maps/jsapi/doc/3.0/quickstart.html#get-api-key
-- `NPM_TOKEN` - To publish your package to npm
+A release tag must match the package version exactly, and its commit must belong
+to the history of `main`. For a manual run, select the version tag. After the checks
+pass, the workflow publishes with OIDC. Stable versions go to `latest` and
+prerelease versions go to `next`.

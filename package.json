@@ -14,8 +14,8 @@
         "examples": "ymaps3-cli example --input=example --output=dist/example",
         "watch": "webpack --watch",
         "start": "webpack serve",
-        "bump": "npm version patch --no-git-tag-version && npm run bump:git",
-        "bump:git": "git add --all && git commit -m \"New version $npm_package_version\" && git tag $npm_package_version && git push --tags origin HEAD:main"
+        "bump": "test \"$(git branch --show-current)\" = main && test -z \"$(git status --porcelain)\" && npm version patch --no-git-tag-version && npm run bump:git",
+        "bump:git": "test \"$(git branch --show-current)\" = main && git diff --cached --quiet && git add -- package.json package-lock.json && git commit -m \"New version $npm_package_version\" && git tag \"$npm_package_version\" && git push --atomic origin HEAD:refs/heads/main \"refs/tags/$npm_package_version\""
     },
     "devDependencies": {
         "@types/got": "9.6.12",
@@ -51,5 +51,9 @@
         "mini-css-extract-plugin": "^2.9.2",
         "postcss-loader": "^8.1.1"
     },
-    "license": "Apache-2"
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yandex/ymaps3-drawer-control.git"
+    }
 }

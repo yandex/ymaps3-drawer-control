@@ -1,5 +1,6 @@
 .editorconfig
 .env
+.env.*
 .eslintignore
 .eslintrc.js
 .github
@@ -17,3 +18,4 @@ tests
 .DS_Store
 example
 tsconfig.json
+*.tgz
